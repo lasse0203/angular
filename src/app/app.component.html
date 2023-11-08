@@ -1,1 +1,6 @@
 <router-outlet></router-outlet>
+<nav>
+<a [routerLink]="'/about'" [routerLinkActive]="'active'">about</a>
+<a [routerLink]="'/contact'" [routerLinkActive]="'active'">Contact</a>
+<a [routerLink]="'/'" [routerLinkActive]="'maClasse'"[routerLinkActiveOptions]="{exact:true}">Home</a>
+</nav>
